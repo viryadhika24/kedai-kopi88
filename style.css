@@ -320,6 +320,10 @@ footer .links a{
     transition: .3s ease-in-out;
 }
 
+footer .links a:hover{
+    color: var(--bg);
+}
+
 footer .credit a{
     color: var(--bg);
     font-weight: 700;
