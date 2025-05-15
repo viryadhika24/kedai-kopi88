@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kedai Kopi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="#" class="navbarLogo">Warkop <span>Wolu-wolu</span></a>
+
+        <div class="navbarNav">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="navbarExtra">
+            <a href="#" id="search"><i data-feather="search"></i></a>
+            <a href="#" id="shopping"><i data-feather="shopping-cart"></i></a>
+            <a href="#" id="hamburgerMenu"><i data-feather="menu"></i></a>
+        </div>
+    </nav>
+
+    <!-- hero section -->
+    <section class="hero" id="home">
+        <main class="content">
+            <h1>Mari Nikmati Secangkir <span>Kopi</span></h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit adipisci reiciendis quis incidunt, ipsum aliquam.</p>
+            <a href="#menu" class="cta">Beli Sekarang</a>
+        </main>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="about">
+        <h2><span>Tentang</span> Kami</h2>
+
+        <div class="row">
+            <div class="aboutImg">
+                <img src="img/tentang kami.jpg" alt="tentang kami">
+            </div>
+            <div class="content">
+                <h3>Kenapa memilih kopi kami?</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odio amet odit dolorum veritatis eaque.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius odio amet odit dolorum veritatis eaque.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- menu section -->
+    <section id="menu" class="menu">
+        <h2><span>Menu</span> Kami</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab fugit, officia vero iure id dolorem.</p>
+
+        <div class="row">
+            <div class="menuCard">
+                <img src="img/menu/1.jpg" alt="espresso" class="menuCardImg">
+                <h3 class="menuCardTitle">- Espresso -</h3>
+                <p class="menuCardPrice">IDR 15k</p>
+            </div>
+            <div class="menuCard">
+                <img src="img/menu/2.jpg" alt="kopiHitam" class="menuCardImg">
+                <h3 class="menuCardTitle">- Kopi Hitam -</h3>
+                <p class="menuCardPrice">IDR 6k</p>
+            </div>
+            <div class="menuCard">
+                <img src="img/menu/3.jpg" alt="kopiSusu" class="menuCardImg">
+                <h3 class="menuCardTitle">- Kopi Susu -</h3>
+                <p class="menuCardPrice">IDR 7k</p>
+            </div>
+            <div class="menuCard">
+                <img src="img/menu/4.jpg" alt="esTeh" class="menuCardImg">
+                <h3 class="menuCardTitle">- Es Teh -</h3>
+                <p class="menuCardPrice">IDR 4k</p>
+            </div>
+            <div class="menuCard">
+                <img src="img/menu/5.jpg" alt="popIce" class="menuCardImg">
+                <h3 class="menuCardTitle">- Aneka rasa Pop Ice -</h3>
+                <p class="menuCardPrice">IDR 5k</p>
+            </div>
+            <div class="menuCard">
+                <img src="img/menu/6.jpg" alt="espresso" class="menuCardImg">
+                <h3 class="menuCardTitle">- Aneka rasa Kukubima -</h3>
+                <p class="menuCardPrice">IDR 6k</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+        <h2><span>Kontak</span> Kami</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, eos.</p>
+
+        <div class="row">
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.3085771417436!2d112.56824307442236!3d-7.090183669505847!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77fdbce674173d%3A0xf14abb4eaf7bc575!2sWarkop%20wolu%20-%20wolu!5e0!3m2!1sid!2sid!4v1747325347277!5m2!1sid!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        
+            <form action="https://formspree.io/f/mkgrkazb" method="post">
+                <div class="inputGroup">
+                    <i data-feather="user"></i>
+                    <input type="text" name="name" id="name" placeholder="Nama">
+                </div>
+                <div class="inputGroup">
+                    <i data-feather="mail"></i>
+                    <input type="text" name="email" id="email" placeholder="contact@gmail.com">
+                </div>
+                <div class="inputGroup">
+                    <i data-feather="phone"></i>
+                    <input type="text" name="phone" id="phone" placeholder="Nomor Handphone">
+                </div>
+                <div class="inputGroup">
+                    <!-- <i data-feather="message-square"></i> -->
+                     <textarea name="message" id="message" rows="7" placeholder="Message"></textarea>
+                </div>
+                <button class="btn" type="submit">Kirim Pesan</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <div class="media">
+            <a href=""><i data-feather="instagram"></i></a>
+            <a href=""><i data-feather="facebook"></i></a>
+            <a href=""><i data-feather="twitter"></i></a>
+        </div>
+
+        <div class="links">
+            <a href="#home">Home</a>
+            <a href="#about">Tentang Kami</a>
+            <a href="#menu">Menu</a>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="credit">
+            <p>Created by <a href="">Viryadhika</a>. | &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script>feather.replace();</script>
+    <script src="script.js"></script>
+</body>
+</html>
